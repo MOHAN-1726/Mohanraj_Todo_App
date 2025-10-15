@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUsers } from "../features/users/userSlice";
-import "./User.css";
+import "./user.css";
 
 function User() {
   const dispatch = useDispatch();
