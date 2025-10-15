@@ -23,7 +23,7 @@ export default function Products() {
   };
 
   return (
-    <div id="di">
+    <div id="d">
       <nav className="navbar">
         <div className="nav-left">
           <h2>My Store</h2>
