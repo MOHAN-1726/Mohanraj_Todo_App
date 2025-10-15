@@ -12,12 +12,13 @@ function Contact() {
   };
 
   const handleSubmit = () => {
+    alert(`Name: ${name}\nMessage: ${message}\n \nThank you for your valuable feedback.`);
     dispatch(resetContact());
   };
 
   return (
     <div id="di" style={{ padding: "10px" }}>
-      <h2 >Feedback Form </h2>
+      <h2>Feedback Form</h2>
       <label>Name</label><br />
       <input type="text" name="name" value={name} onChange={handleChange} />
       <br /><br />
